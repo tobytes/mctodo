@@ -1,3 +1,13 @@
-This is a template (or skeleton or boilerplate) repository for Minecraft Forge modding projects. Please replace this readme file with one of your own, describing your project.
+## A simple minecraft todo list - work in progress
+### Requirements
+* [Gradle installation with gradle binary in PATH](http://www.gradle.org/installation)
 
-For more information, see <https://github.com/RoyCurtis/ForgeGradleTemplate/wiki>
+### Installation
+    gradle setupDecompWorkspace
+    gradle build
+    gradle genIntellijRuns
+    
+### Update dependencies
+    gradle setupDecompWorkspace --refresh-dependencies
+    
+Strukture based on <https://github.com/RoyCurtis/ForgeGradleTemplate>
