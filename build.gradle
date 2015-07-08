@@ -24,13 +24,13 @@ buildscript
 // Applies the custom Gradle plugin Forge uses, for Forge-specific tasks
 apply plugin: 'forge'
 
-version = "1.0"
+version = "1.7.10-0.0.1"
 group   = "com.tobyte.todo"
 archivesBaseName = "ToDo"
 
 minecraft
 {
-    version = "1.7.10-10.13.2.1291"
+    version = "1.7.10-10.13.3.1403-1.7.10"
     runDir  = "debug"
 }
 
